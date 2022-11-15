@@ -1,0 +1,320 @@
+
+
+/* List Format */
+ul {
+    list-style-type: none; 
+    margin: 0;
+   padding-top: 5px;
+   padding-bottom: 1px;
+    overflow: hidden;
+}
+
+hr {
+    max-width: 95%;
+}
+
+li {
+    float: left;
+}
+
+/* Header */
+li a {
+   
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    
+    text-decoration: underline;
+    color: black;
+    font-size: larger;
+}
+
+/* List's buttons  */
+li a:hover {
+
+    background-color: #3b85d9;
+    padding: 14px 16px;
+    text-decoration: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+nav {
+    background-color: #80d0f0;
+}
+
+
+* {
+    font-family: 'Oswald';
+
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+
+/* Welcome Box */
+.welcomeHeader {
+    background-color: #3b85d9;
+    width: 25%;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: auto ; 
+    margin-right: auto; 
+    margin-bottom: auto ; 
+    
+    padding: 2px 0 2px 10px;
+    border: 2px solid white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+
+.homepage {
+    background-color: gray;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+
+
+
+html {
+    background: #ded8c1;
+    margin: 0;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 3px 0 3px 0;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+button a {
+    text-decoration: none;
+    color: #616161;
+}
+
+.toggleButton:hover {
+    background-color: #f5c842;
+}
+
+.toggleButton:active {
+    box-shadow: 0 2px gainsboro;
+    transform: translateY(2px);
+}
+
+.todayHeader {
+    font-weight: 580;
+    font-size: larger;
+    display: block;
+}
+
+.submittButton {
+    transition: 0.5s;
+    border: none;
+    width: 400px;
+}
+
+.submittButton:hover {
+    box-shadow: inset 400px 0 0 0 #f5c842;
+}
+
+.originalPrice {
+    color: #8f8f8c;
+}
+
+.productMain {
+    display: flex;
+    justify-content:space-between;
+}
+
+.catDropDown {
+    background-color: #f5c842;
+    width: 20%;
+    margin-top: 3em;
+    padding: 1em 0 0.5em 1em;
+    border-radius: 20px;
+    margin-right: 1em;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    height: min-content;
+    position: sticky;
+    top: 0;
+}
+
+.catDropDown select {
+    width: 50%;
+    margin-left: 2em;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.filter select {
+    margin-right: 10px;
+}
+
+.filterSubmitt button {
+    margin: 1em auto;
+    display: block;
+}
+
+.itemDisplay {
+    background-color: white;
+    width: 99%;
+    margin: auto;
+    height: 100%;
+    /* max-height: 600px; */
+    min-height: 100vh;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+
+}
+
+.itemDisplay span {
+    font-size: smaller;
+}
+
+.itemDes {
+    box-shadow: 3px 5px 10px black;
+    border: 2px solid white;
+    background-color: #f5c842;
+    padding: 2px 0 2px 0;
+}
+
+.itemDes h1,
+span {
+    margin: auto;
+    width: 95%;
+}
+
+.singleItemDisplay {
+    width: 70%;
+    margin: auto;
+}
+
+.itemPic {
+    height: 40vh;
+    width: 49%;
+}
+
+
+.itemPic img {
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+.itemDiv {
+    width: 70%;
+    margin: auto;
+    background-color: #f5c842;
+    border: 2px solid #333;
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../image/wood-pattern.png);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+
+.itemText {
+    width: 49%;
+    margin: 0;
+}
+
+.itemText h1 {
+    margin: 0 0 0.5em 0;
+}
+
+.itemText p {
+    max-width: 100%;
+}
+
+.quantity {
+    display: flex;
+}
+
+
+
+
+
+
+.button2 {
+    padding: 0.35em 1.2em;
+    border: 0.1em solid black;
+    margin-top: 1em;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Oswald;
+    font-weight: 300;
+    font-size: larger;
+    background-color: white;
+    left: 50%;
+    transition: all 0.2s;
+    width: 50%;
+    margin-right: 2em;
+}
+
+.button2:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.backButton {
+    border-radius: 25px;
+    background-color: #f5c842;
+    padding: 1em 1em 1em 1em;
+    width: 5em;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+    border: none;
+    height: fit-content;
+}
+
+.button2 {
+    transition: 0.7s;
+}
+
+.button2:hover {
+    box-shadow: inset 500px 0 0 0 #f5c842;
+}
+
+.aboutDiv {
+    margin: 0.5em auto;
+    background-color: #f5c842;
+    width: 80%;
+    text-align: center;
+    padding: 2px 0 2px 0;
+    border: 2px solid white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+ nav{
+    background-image: url("../images/scar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+ }
